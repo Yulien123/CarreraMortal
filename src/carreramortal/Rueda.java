@@ -49,4 +49,10 @@ public class Rueda {
         setPresion(getPresion()-0.5);
         System.out.println("Rueda "+num+" desinflada, presion: "+getPresion());
     }
+
+    @Override
+    public String toString() {
+        return "Rueda{" + "marca=" + marca + ", presion=" + presion + ", num=" + num + '}';
+    }
+    
 }
